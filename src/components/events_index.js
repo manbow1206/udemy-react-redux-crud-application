@@ -11,7 +11,7 @@ class EventIndex extends Component {
 
   renderEvents() {
     return _.map(this.props.events, (event) => (
-      <tr key={event.key}>
+      <tr key={event.id}>
         <td>{event.id}</td>
         <td>{event.title}</td>
         <td>{event.body}</td>
